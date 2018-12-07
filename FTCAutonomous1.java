@@ -23,7 +23,7 @@ public class FTCAutonomous1 extends LinearOpMode {
         IM = hardwareMap.dcMotor.get("IM");
         LT = hardwareMap.dcMotor.get("LT");
 
-        LM.setDirection(DcMotorSimple.Direction.REVERSE);
+        LM.setDirection(DcMotor.Direction.REVERSE);
 
         waitForStart();
 
